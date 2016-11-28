@@ -1,5 +1,3 @@
 makeindex prob
-latex prob.tex
-dvips -o prob.ps prob.dvi
-ps2pdf prob.ps
+xelatex prob.tex
 tar -cvvzf prob.tar.gz *.tex figures zzz
