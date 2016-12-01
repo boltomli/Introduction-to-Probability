@@ -1,3 +1,4 @@
 makeindex prob
 xelatex prob.tex
 tar -cvvzf prob.tar.gz *.tex figures zzz
+evince prob.pdf
