@@ -1,6 +1,7 @@
 LATEX = xelatex
 
 all:	prob.tex
+	$(LATEX) prob
 	makeindex prob.idx
 	$(LATEX) prob
 	evince prob.pdf
