@@ -1,4 +1,4 @@
-LATEX = xelatex
+LATEX = lualatex
 
 all:	prob.tex
 	$(LATEX) prob
