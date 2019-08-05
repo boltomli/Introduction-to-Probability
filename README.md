@@ -4,7 +4,7 @@ Grinstead and Snell’s Introduction to Probability from https://math.dartmouth.
 
 ## Notes on build
 
-Run `make -c prob`. Original script `zzz` is included as well.
+Run `make -C prob`. Original script `zzz` is included as well.
 
 TexLive regular or full installation would be good.
 
