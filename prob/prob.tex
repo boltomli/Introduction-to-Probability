@@ -36,16 +36,17 @@ the GNU Free Documentation License.
 \discretefalse
 \newcommand{\choice}[2]{\ifdiscrete{#1}\else{#2}\fi}
 
+\usepackage{float}
 %\putfig{3.5truein}{PSfig1.3}{Peter's winnings in 40 plays of heads or tails.}{fig 1.3}
 \newcommand{\putfig}[4]
-{\begin{figure}
+{\begin{figure}[ht]
 \centerline{\barefig{#2}{#1}}
 \caption{#3}
 \label{#4}
 \end{figure}}
 
 \newcommand{\putfigdouble}[6]
-{\begin{figure}
+{\begin{figure}[ht]
 \centerline{\barefig{#2}{#1}}
 \centerline{\barefig{#4}{#3}}
 \caption{#5}
@@ -53,7 +54,7 @@ the GNU Free Documentation License.
 \end{figure}}
 
 \newcommand{\nocaption}[4]
-{\begin{figure}
+{\begin{figure}[ht]
 \centerline{\barefig{#2}{#1}}
 %\caption{#3}
 \label{#4}
